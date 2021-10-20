@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{56098FD6-859D-32F5-A7BF-25A8CA7EEA34}</ProjectGuid>
+    <ProjectGuid>{A98D3371-7544-C3D6-C89E-4ECEA8BF4AD3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -62,8 +62,15 @@
     <Compile Include="Assets\Scripts\EscenaTest.cs" />
     <Compile Include="Assets\Scripts\SalirDeEscenarioCarrera.cs" />
     <Compile Include="Assets\Jammo-Character\Scripts\MoveRaycast.cs" />
+    <Compile Include="Assets\Akishaqs\Characters\_CommonFiles\_DemoStuff\Scripts\Animations.cs" />
+    <Compile Include="Assets\Akishaqs\Characters\_CommonFiles\_DemoStuff\Scripts\Customizations.cs" />
+    <Compile Include="Assets\Akishaqs\Characters\_CommonFiles\_DemoStuff\Scripts\DragToRotate.cs" />
+    <Compile Include="Assets\Scripts\SeguimientoCamaraPersonaje.cs" />
+    <Compile Include="Assets\Scripts\MovimientoPersonaje.cs" />
+    <Compile Include="Assets\Scripts\ControladorCursor.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Akishaqs\Characters\_CommonFiles\_DemoStuff\Fonts\OFL.txt" />
     <None Include="Assets\BrokenVector\LowPolyTreePack\README.txt" />
   </ItemGroup>
   <ItemGroup>
