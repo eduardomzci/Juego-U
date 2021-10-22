@@ -11,7 +11,8 @@ public class EscenaTest : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            LoadNextLevel();
+            //LoadNextLevel();
+            SceneManager.LoadScene(2);
         }
     }
 
