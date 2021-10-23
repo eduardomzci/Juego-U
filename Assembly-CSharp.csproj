@@ -66,12 +66,9 @@
     <Compile Include="Assets\Scripts\SalirDeEscenarioCarrera.cs" />
     <Compile Include="Assets\Jammo-Character\Scripts\MoveRaycast.cs" />
     <Compile Include="Assets\Scripts\SeguimientoCamaraPersonaje.cs" />
+    <Compile Include="Assets\Scripts\ResetearPanelCambiarContenido.cs" />
     <Compile Include="Assets\Akishaqs\Characters\_CommonFiles\_DemoStuff\Scripts\Animations.cs" />
     <Compile Include="Assets\Akishaqs\Characters\_CommonFiles\_DemoStuff\Scripts\Customizations.cs" />
-<<<<<<< HEAD
-=======
-    <Compile Include="Assets\Scripts\ResetearPanelCambiarContenido.cs" />
->>>>>>> ce1598b63a1c2cf61016dcf4a62314d226bc191d
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Akishaqs\Characters\_CommonFiles\_DemoStuff\Fonts\OFL.txt" />
