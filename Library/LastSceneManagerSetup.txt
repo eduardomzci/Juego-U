@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Escenarios/Facultades/MapaFacultadCienciasSalud.unity
+=======
+- path: Assets/Escenarios/Test/TestFacultadCienciasSalud.unity
+>>>>>>> ce1598b63a1c2cf61016dcf4a62314d226bc191d
   isLoaded: 1
   isActive: 1
   isSubScene: 0
