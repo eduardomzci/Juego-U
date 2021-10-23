@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scripts\EscenaTest.cs" />
     <Compile Include="Assets\Scripts\MovimientoPersonaje.cs" />
     <Compile Include="Assets\Scripts\SalirDeEscenarioCarrera.cs" />
+    <Compile Include="Assets\Scripts\SalirDelTestBotones.cs" />
     <Compile Include="Assets\Jammo-Character\Scripts\MoveRaycast.cs" />
     <Compile Include="Assets\Scripts\SeguimientoCamaraPersonaje.cs" />
     <Compile Include="Assets\Scripts\ResetearPanelCambiarContenido.cs" />

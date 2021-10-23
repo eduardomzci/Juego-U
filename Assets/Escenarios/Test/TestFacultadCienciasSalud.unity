@@ -1794,13 +1794,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2106360320}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 2106360326}
+        m_TargetAssemblyTypeName: SalirDelTestBotones, Assembly-CSharp
+        m_MethodName: Finalizar
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -3662,13 +3662,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2106360320}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 2106360326}
+        m_TargetAssemblyTypeName: SalirDelTestBotones, Assembly-CSharp
+        m_MethodName: Salir
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -3956,6 +3956,7 @@ GameObject:
   - component: {fileID: 2106360322}
   - component: {fileID: 2106360321}
   - component: {fileID: 2106360325}
+  - component: {fileID: 2106360326}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -4071,6 +4072,18 @@ MonoBehaviour:
   AtrasPregunta1: {fileID: 1475083881}
   AtrasPregunta2: {fileID: 534924968}
   Finalizar: {fileID: 867574388}
+--- !u!114 &2106360326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2106360320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 854a14b2e29023f4695a70fce8272f0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2129550564
 GameObject:
   m_ObjectHideFlags: 0
