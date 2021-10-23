@@ -69,7 +69,10 @@
     <Compile Include="Assets\Scripts\ResetearPanelCambiarContenido.cs" />
     <Compile Include="Assets\Akishaqs\Characters\_CommonFiles\_DemoStuff\Scripts\Animations.cs" />
     <Compile Include="Assets\Akishaqs\Characters\_CommonFiles\_DemoStuff\Scripts\Customizations.cs" />
+<<<<<<< HEAD
     <Compile Include="Assets\Scripts\SalirDelTestBotones.cs" />
+=======
+>>>>>>> 10d46d19e52dc27a76f2dbfdf69092c29c0c165f
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Akishaqs\Characters\_CommonFiles\_DemoStuff\Fonts\OFL.txt" />
