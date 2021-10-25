@@ -43603,7 +43603,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
   lugarfijo: {x: 0, y: 0, z: 0}
+  lugarfijoParaParticulas: {x: 0, y: 0, z: 0}
   jugador: {fileID: 8369128334775807629}
+  particulasJugadorPocision: {fileID: 8220390549783912733, guid: a7b7032e5df487e47b460cda151afbdf, type: 3}
 --- !u!195 &8372110528622053643
 NavMeshAgent:
   m_ObjectHideFlags: 0

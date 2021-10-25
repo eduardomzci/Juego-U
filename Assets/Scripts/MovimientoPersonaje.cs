@@ -14,7 +14,12 @@ public class MovimientoPersonaje : MonoBehaviour
 
     public RaycastHit hit;
     public Vector3 lugarfijo;
+    public Vector3 lugarfijoParaParticulas;
     public Transform jugador;
+
+    public GameObject particulasJugadorPocision;
+
+    private bool bandera = false;
 
     void Start()
     {
@@ -26,7 +31,8 @@ public class MovimientoPersonaje : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButton(0))
+        //if (Input.GetMouseButton(0))
+        if (Input.GetMouseButtonDown(0))
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             if (Physics.Raycast(ray, out hit))
@@ -35,6 +41,8 @@ public class MovimientoPersonaje : MonoBehaviour
                 anim.SetBool("quieto", false);
                 lugarfijo = hit.point;
                 agent.SetDestination(hit.point);
+                //Iniciar Rutina Particulas marcando ubicacion a seguir por el jugador
+                StartCoroutine(HabilitarDestruirParticulas());
             }
         }
 
@@ -44,4 +52,24 @@ public class MovimientoPersonaje : MonoBehaviour
             anim.SetBool("quieto", true);
         }
     }
+
+    public IEnumerator HabilitarDestruirParticulas()
+    {
+        if (bandera==false)
+        {
+            lugarfijoParaParticulas = lugarfijo;
+            lugarfijoParaParticulas.y += 0.5f;
+            var cloneBomb = Instantiate(particulasJugadorPocision, lugarfijoParaParticulas, Quaternion.Euler(-90, 0, 0));
+            yield return new WaitForSeconds(1f);
+            Destroy(cloneBomb);
+            //StartCoroutine(TiempoEntreRutina());
+        }
+    }
+
+    //public IEnumerator TiempoEntreRutina()
+    //{
+    //    bandera = true;
+    //    yield return new WaitForSeconds(1f);
+    //    bandera = false;
+    //}
 }
