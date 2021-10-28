@@ -15,11 +15,11 @@ D:/Univalle/Practica Profesional/Juego-U
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54490
+54768
 Successfully changed project path to: D:/Univalle/Practica Profesional/Juego-U
 D:/Univalle/Practica Profesional/Juego-U
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 38.94 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 37.54 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.15f2 (6cf78cb77498)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/Resources/UnitySubsystems
@@ -35,39 +35,39 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56624
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56104
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001875 seconds.
+Registered in 0.001798 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 38.40 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 36.40 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.834 seconds
+- Completed reload, in  1.786 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1834ms)
+	ReloadAssembly (1786ms)
 		BeginReloadAssembly (51ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (418ms)
+		EndReloadAssembly (393ms)
 			LoadAssemblies (49ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (158ms)
+			SetupTypeCache (142ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (157ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (154ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (38ms)
+				RefreshPlugins (36ms)
 				BeforeProcessingInitializeOnLoad (13ms)
-				ProcessInitializeOnLoadAttributes (75ms)
+				ProcessInitializeOnLoadAttributes (73ms)
 				ProcessInitializeOnLoadMethodAttributes (26ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -75,52 +75,52 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002487 seconds.
+Registered in 0.002452 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.115 seconds
+- Completed reload, in  1.060 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1116ms)
-		BeginReloadAssembly (140ms)
+	ReloadAssembly (1061ms)
+		BeginReloadAssembly (134ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (917ms)
-			LoadAssemblies (79ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (870ms)
+			LoadAssemblies (78ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (275ms)
+			SetupTypeCache (266ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (59ms)
-			SetupLoadedEditorAssemblies (404ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (390ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (91ms)
-				ProcessInitializeOnLoadAttributes (298ms)
-				ProcessInitializeOnLoadMethodAttributes (3ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (287ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1804 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 97.9 MB.
 System memory in use after: 98.0 MB.
 
 Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2261.
-Total: 2.522800 ms (FindLiveObjects: 0.176400 ms CreateObjectMapping: 0.066000 ms MarkObjects: 2.200300 ms  DeleteObjects: 0.079100 ms)
+Total: 2.257800 ms (FindLiveObjects: 0.157800 ms CreateObjectMapping: 0.060600 ms MarkObjects: 1.956000 ms  DeleteObjects: 0.082500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -135,57 +135,667 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Escenarios/MapaPrincipal.unity
-  artifactKey: Guid(6e96dddd7d977d2419ff7065583ae671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Escenarios/MapaPrincipal.unity using Guid(6e96dddd7d977d2419ff7065583ae671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38ccc3fffde0739323fa8c66b44f96d1') in 0.021449 seconds 
-  Import took 0.024005 seconds .
+  path: Assets/Escenarios/Facultades
+  artifactKey: Guid(ceeb9f8c0860fa6418c57dc78f5e25cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Escenarios/Facultades using Guid(ceeb9f8c0860fa6418c57dc78f5e25cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a91d26e0383606290b8ce2a14076f003') in 0.009646 seconds 
+  Import took 0.012220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Escenarios/Facultades/MapaFacultadCienciasSalud.unity
+  artifactKey: Guid(2e690f92d2bd0ea40be7874f12ea316d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Escenarios/Facultades/MapaFacultadCienciasSalud.unity using Guid(2e690f92d2bd0ea40be7874f12ea316d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed1ecaff6b81b6babb80bd8e699d1cea') in 0.023869 seconds 
+  Import took 0.026443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Escenarios/Facultades/MapaFacultadArquitecturaGastronomia.unity
+  artifactKey: Guid(de76ead49e03e3f40b0e8b5785f6b37b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Escenarios/Facultades/MapaFacultadArquitecturaGastronomia.unity using Guid(de76ead49e03e3f40b0e8b5785f6b37b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59a75c94a19fee99fcbc7b4e3bd31b17') in 0.008764 seconds 
+  Import took 0.011505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.873329 seconds.
+  path: Assets/Modelos3D/PuestosCarreras/PuestoOdontologia.fbx
+  artifactKey: Guid(8f313558f3dbdd74380bba0b42c7bdb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos3D/PuestosCarreras/PuestoOdontologia.fbx using Guid(8f313558f3dbdd74380bba0b42c7bdb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3c8773cc0bc93c13e4081f75fd240e4') in 0.322808 seconds 
+  Import took 0.325982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.326307 seconds.
+  path: Assets/Modelos3D/ObjetosMapaPrincipal/Asientos.fbx
+  artifactKey: Guid(9283244ddbc197b498d36a8c6bb3ab65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos3D/ObjetosMapaPrincipal/Asientos.fbx using Guid(9283244ddbc197b498d36a8c6bb3ab65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fb87ce3da8d3d676e0b490c9c059eb5') in 0.095561 seconds 
+  Import took 0.098627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Modelos3D/ObjetosMapaPrincipal/PostesLuz.fbx
+  artifactKey: Guid(60b94b48f2d49b34394779200d8c6f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos3D/ObjetosMapaPrincipal/PostesLuz.fbx using Guid(60b94b48f2d49b34394779200d8c6f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e94bb927aafa22814c0ecc1608a4ab02') in 0.140591 seconds 
+  Import took 0.143465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Modelos3D/ObjetosMapaPrincipal/UnivalleLogoParteCentral.fbx
+  artifactKey: Guid(77a689798efc39846a15f72d4b8c9206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos3D/ObjetosMapaPrincipal/UnivalleLogoParteCentral.fbx using Guid(77a689798efc39846a15f72d4b8c9206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f44b980b8f77b3b03c2efcd868f99e8') in 0.218465 seconds 
+  Import took 0.221210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.438104 seconds.
+  path: Assets/Modelos3D/Facultades/FacultadCienciasEmpresariales.fbx
+  artifactKey: Guid(d035c0b5236032b4f89fba85d06e635e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos3D/Facultades/FacultadCienciasEmpresariales.fbx using Guid(d035c0b5236032b4f89fba85d06e635e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b75b788ca5511609c4aea4a26893a9a') in 1.041911 seconds 
+  Import took 1.045967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Modelos3D/Facultades/FacultadTecnologia.fbx
+  artifactKey: Guid(a119f12a632a94f45824e8600516eb06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos3D/Facultades/FacultadTecnologia.fbx using Guid(a119f12a632a94f45824e8600516eb06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '118223c1428a30c719162ab5f2d2e382') in 1.552515 seconds 
+  Import took 1.556754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Modelos3D/Facultades/FacultadCienciasSalud.fbx
+  artifactKey: Guid(f45ee3dd6e1866a49a6e84f6556d6052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos3D/Facultades/FacultadCienciasSalud.fbx using Guid(f45ee3dd6e1866a49a6e84f6556d6052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eab4c5863d43b54e0ed297d3fbe639f7') in 1.450320 seconds 
+  Import took 1.454550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Modelos3D/Facultades/FacultadInformatica.fbx
+  artifactKey: Guid(eaf30c6a08238d64f9425553a3994f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos3D/Facultades/FacultadInformatica.fbx using Guid(eaf30c6a08238d64f9425553a3994f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '072343a146d3b332e26546702d6dbad2') in 0.487064 seconds 
+  Import took 0.490303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Modelos3D/Facultades/FacultadGastronomia.fbx
+  artifactKey: Guid(e61bcf35cf13455489ac26e64c2b7631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos3D/Facultades/FacultadGastronomia.fbx using Guid(e61bcf35cf13455489ac26e64c2b7631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '216fdb5350cc92cc7b119572cb88b977') in 0.327661 seconds 
+  Import took 0.330711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.855050 seconds.
+  path: Assets/Modelos3D/Facultades
+  artifactKey: Guid(b826e453e857f2e4db7025a5f1c215ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos3D/Facultades using Guid(b826e453e857f2e4db7025a5f1c215ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '690df47aff7e96912d6c1036af4d7426') in 0.003025 seconds 
+  Import took 0.006335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001129 seconds.
+  path: Assets/Modelos3D/Facultades
+  artifactKey: Guid(b826e453e857f2e4db7025a5f1c215ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos3D/Facultades using Guid(b826e453e857f2e4db7025a5f1c215ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '690df47aff7e96912d6c1036af4d7426') in 0.002858 seconds 
+  Import took 0.006030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.881549 seconds.
+  path: Assets/Modelos3D/Facultades/Facultad
+  artifactKey: Guid(b6ee1226e9f6a33498714d4dccca2811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos3D/Facultades/Facultad using Guid(b6ee1226e9f6a33498714d4dccca2811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '284767a62f4c8688ff62547de18cbbed') in 0.007902 seconds 
+  Import took 0.010822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.331780 seconds.
+  path: Assets/Modelos3D/Facultades/FacultadCienciasSalud
+  artifactKey: Guid(639aab3fd16549744a90f1bf6ca85596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos3D/Facultades/FacultadCienciasSalud using Guid(639aab3fd16549744a90f1bf6ca85596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78d5c2b5d1cfd8f66c770e64d9ec0ebd') in 0.002324 seconds 
+  Import took 0.005392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.686319 seconds.
+  path: Assets/Modelos3D/Facultades/FacultadCienciasSalud/StandBioquimica.fbx
+  artifactKey: Guid(5583d0162938ea1428a3d1c5e66d8168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos3D/Facultades/FacultadCienciasSalud/StandBioquimica.fbx using Guid(5583d0162938ea1428a3d1c5e66d8168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '387463534430ad0ae1234c528ebd673e') in 0.203363 seconds 
+  Import took 0.206416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Modelos3D/Facultades/FacultadCienciasSalud/StandFisioterapia.fbx
+  artifactKey: Guid(8702ebfb9d6be5042ab8858c2d6fbaf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos3D/Facultades/FacultadCienciasSalud/StandFisioterapia.fbx using Guid(8702ebfb9d6be5042ab8858c2d6fbaf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19c336785c6399e7d26f44d3bcffd95a') in 0.160152 seconds 
+  Import took 0.162941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Modelos3D/Facultades/FacultadCienciasSalud/StandMedicina.fbx
+  artifactKey: Guid(296f343288d4c93428881f74e849c215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos3D/Facultades/FacultadCienciasSalud/StandMedicina.fbx using Guid(296f343288d4c93428881f74e849c215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9e4c50f181244e13882677f5a9c0362') in 0.163598 seconds 
+  Import took 0.166424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Modelos3D/Facultades/FacultadCienciasSalud/StandEnfermeria.fbx
+  artifactKey: Guid(555b31c975834da4cb5ac3a681341c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos3D/Facultades/FacultadCienciasSalud/StandEnfermeria.fbx using Guid(555b31c975834da4cb5ac3a681341c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ce79fadfe3ae06ad9660b5e21e82baa') in 0.158433 seconds 
+  Import took 0.161184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Modelos3D/Facultades/FacultadCienciasSalud/StandOdontologia.fbx
+  artifactKey: Guid(fcfc6686594fc764b9581374a0b17240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos3D/Facultades/FacultadCienciasSalud/StandOdontologia.fbx using Guid(fcfc6686594fc764b9581374a0b17240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82a342ef7daf493c4c48f4d65ff5826e') in 0.171304 seconds 
+  Import took 0.174029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 378.371314 seconds.
+  path: Assets/Modelos3D/Facultades/FacultadCienciasSalud/StandBioquimica.fbx
+  artifactKey: Guid(5583d0162938ea1428a3d1c5e66d8168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos3D/Facultades/FacultadCienciasSalud/StandBioquimica.fbx using Guid(5583d0162938ea1428a3d1c5e66d8168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d2814d486b4d9c9581814091cadb4cb') in 0.160814 seconds 
+  Import took 0.164490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.748741 seconds.
+  path: Assets/Modelos3D/Facultades/FacultadCienciasSalud/StandBioquimica.fbx
+  artifactKey: Guid(5583d0162938ea1428a3d1c5e66d8168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos3D/Facultades/FacultadCienciasSalud/StandBioquimica.fbx using Guid(5583d0162938ea1428a3d1c5e66d8168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd40ccc4729278682430ad42592e5a2ac') in 0.155776 seconds 
+  Import took 0.159093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1152.816604 seconds.
+  path: Assets/Modelos3D/Facultades/FacultadCienciasSalud/StandBioquimica.fbx
+  artifactKey: Guid(5583d0162938ea1428a3d1c5e66d8168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos3D/Facultades/FacultadCienciasSalud/StandBioquimica.fbx using Guid(5583d0162938ea1428a3d1c5e66d8168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ee7c9cebe0e2d6b520bdd3cf0e6c4cc') in 0.160277 seconds 
+  Import took 0.164008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 109.882590 seconds.
+  path: Assets/Modelos3D/Facultades/FacultadCienciasSalud/StandEnfermeria.fbx
+  artifactKey: Guid(555b31c975834da4cb5ac3a681341c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos3D/Facultades/FacultadCienciasSalud/StandEnfermeria.fbx using Guid(555b31c975834da4cb5ac3a681341c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16422a94a3b5873c6f03dec9bcb36526') in 0.173110 seconds 
+  Import took 0.176525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 346.981959 seconds.
+  path: Assets/Modelos3D/Facultades/FacultadCienciasSalud/StandFisioterapia.fbx
+  artifactKey: Guid(8702ebfb9d6be5042ab8858c2d6fbaf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos3D/Facultades/FacultadCienciasSalud/StandFisioterapia.fbx using Guid(8702ebfb9d6be5042ab8858c2d6fbaf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dc6b75d073942469b00623bd6975d89') in 0.187681 seconds 
+  Import took 0.191170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2802.090140 seconds.
+  path: Assets/Modelos3D/Facultades/FacultadCienciasSalud/StandMedicina.fbx
+  artifactKey: Guid(296f343288d4c93428881f74e849c215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos3D/Facultades/FacultadCienciasSalud/StandMedicina.fbx using Guid(296f343288d4c93428881f74e849c215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '843e4e28f9761b3db7741cc9ea9dedb0') in 0.166594 seconds 
+  Import took 0.170053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.694575 seconds.
+  path: Assets/Modelos3D/Facultades/FacultadCienciasSalud/StandOdontologia.fbx
+  artifactKey: Guid(fcfc6686594fc764b9581374a0b17240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos3D/Facultades/FacultadCienciasSalud/StandOdontologia.fbx using Guid(fcfc6686594fc764b9581374a0b17240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc402aa6bb4f6210ec9bee7cba47be3e') in 0.177794 seconds 
+  Import took 0.180793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1606.032303 seconds.
+  path: Assets/Materiales/Facultades/CienciasSalud/Cuerpo1.mat
+  artifactKey: Guid(e63a57f777e88434ca77f7e6457de473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materiales/Facultades/CienciasSalud/Cuerpo1.mat using Guid(e63a57f777e88434ca77f7e6457de473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9b302ebf9be693f4a02a3eb353575e8') in 0.028349 seconds 
+  Import took 0.031866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Materiales/Facultades/CienciasSalud/Diente.mat
+  artifactKey: Guid(46ccac4cf9b0bf545b1ca60cbb28c8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materiales/Facultades/CienciasSalud/Diente.mat using Guid(46ccac4cf9b0bf545b1ca60cbb28c8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3121c47d5ac6ce414c65eaf42826887c') in 0.014178 seconds 
+  Import took 0.017306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Materiales/Facultades/CienciasSalud/Cuerpo2.mat
+  artifactKey: Guid(23d27f978169c6c48a88da16d1d08cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materiales/Facultades/CienciasSalud/Cuerpo2.mat using Guid(23d27f978169c6c48a88da16d1d08cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '508b592873d14483861853a5ea7aae42') in 0.013875 seconds 
+  Import took 0.017085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 179.958741 seconds.
+  path: Assets/Texturas img/ladrilloTexture NM.jpg
+  artifactKey: Guid(42fee8b008b9e8849ae2b70f9f6ad1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas img/ladrilloTexture NM.jpg using Guid(42fee8b008b9e8849ae2b70f9f6ad1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ebede181fd172e8253657d40039dfd2') in 0.038955 seconds 
+  Import took 0.042305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Texturas img/logoU.png
+  artifactKey: Guid(08cae92439e9dbb4c82707797cd3138a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas img/logoU.png using Guid(08cae92439e9dbb4c82707797cd3138a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef44aa3eff716b35f8f6f0dfe7cb3e8d') in 0.023957 seconds 
+  Import took 0.026646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Texturas img/TEST VOCACIONAL-01.jpg
+  artifactKey: Guid(44bd93664eb968e4f9e6853e8a8f4a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas img/TEST VOCACIONAL-01.jpg using Guid(44bd93664eb968e4f9e6853e8a8f4a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '299c66be78c4d63b480cfcaff6322435') in 0.024124 seconds 
+  Import took 0.027215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Texturas img/pasto.jpg
+  artifactKey: Guid(ec0e66e52e708ca4d8a3cbb39bfa9340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas img/pasto.jpg using Guid(ec0e66e52e708ca4d8a3cbb39bfa9340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbe8d491da80a9fdcf0172e2db2cb955') in 0.032431 seconds 
+  Import took 0.035448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Texturas img/pasto2 NM.jpg
+  artifactKey: Guid(48f66ef4871aa0f48a7944327f4ddd86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas img/pasto2 NM.jpg using Guid(48f66ef4871aa0f48a7944327f4ddd86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2bb3d3646749881d92fbaf08bab27af') in 0.021703 seconds 
+  Import took 0.024615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Texturas img/TEST VOCACIONALbanner.jpg
+  artifactKey: Guid(ed675cfc81c70d942b4d3439c05b7b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas img/TEST VOCACIONALbanner.jpg using Guid(ed675cfc81c70d942b4d3439c05b7b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ac55afe59647632ca8faf60047d97e3') in 0.031289 seconds 
+  Import took 0.034065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Texturas img/pisoAula NM.jpg
+  artifactKey: Guid(4e25967324a248640b6fdf2fa23f18b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas img/pisoAula NM.jpg using Guid(4e25967324a248640b6fdf2fa23f18b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a55561bda212cac77f4af2b9eb73136') in 0.030811 seconds 
+  Import took 0.033327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Texturas img/paredLadrillo NM.jpg
+  artifactKey: Guid(b220ba2210feec043925741fed2629d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas img/paredLadrillo NM.jpg using Guid(b220ba2210feec043925741fed2629d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca4fa16bc712f0ee20a14ee1ae167bb6') in 0.019671 seconds 
+  Import took 0.022335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Texturas img/pisoCemento NM.jpg
+  artifactKey: Guid(b5e00a4f6955ca64690a199b970477a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas img/pisoCemento NM.jpg using Guid(b5e00a4f6955ca64690a199b970477a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f427cfe64583de5134e82fc7f214d66a') in 0.018879 seconds 
+  Import took 0.022001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Texturas img/paredLadrillo.jpg
+  artifactKey: Guid(ad8e84bdcb7acbd4db34ecea10e6b915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas img/paredLadrillo.jpg using Guid(ad8e84bdcb7acbd4db34ecea10e6b915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c03e9a5027c90aa18e8b55fea059e1e') in 0.029265 seconds 
+  Import took 0.032614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Texturas img/pisoCemento.jpg
+  artifactKey: Guid(1ed25c1c0f33f504f9e165837447cc05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas img/pisoCemento.jpg using Guid(1ed25c1c0f33f504f9e165837447cc05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91f436403bce1bb6ea340ccfcef7ac98') in 0.027539 seconds 
+  Import took 0.030262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Texturas img/pastoLowPoly.jpg
+  artifactKey: Guid(9f3b46e7f12d9e74083d7e4c5d47d945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas img/pastoLowPoly.jpg using Guid(9f3b46e7f12d9e74083d7e4c5d47d945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '943a811cc7f6c70060bf5dd976ab9018') in 0.032898 seconds 
+  Import took 0.035447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Texturas img/TEST VOCACIONAL pregunta.jpg
+  artifactKey: Guid(9728fb084cb1c4b438ce18c65ccabc6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas img/TEST VOCACIONAL pregunta.jpg using Guid(9728fb084cb1c4b438ce18c65ccabc6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f58f7564965b711d09fb0a5be4bc2d5') in 0.030221 seconds 
+  Import took 0.033301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.910988 seconds.
+  path: Assets/Texturas/Logos
+  artifactKey: Guid(9a7f41e37ced4b549891dc3695981845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/Logos using Guid(9a7f41e37ced4b549891dc3695981845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '100a4d378ccbc372eb49382fe94c00e0') in 0.009035 seconds 
+  Import took 0.011810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053938 seconds.
+  path: Assets/Texturas/Logos/logoU.png
+  artifactKey: Guid(af7073d74eb163440bb8fcd29521f52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/Logos/logoU.png using Guid(af7073d74eb163440bb8fcd29521f52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '779a9d8db967083994133de666fb0e9e') in 0.014771 seconds 
+  Import took 0.017925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.761292 seconds.
+  path: Assets/Texturas/MapaPrincipal/pisoBase.jpg
+  artifactKey: Guid(f0fbd03c5c69bba4bb38ba3b06a2b570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/MapaPrincipal/pisoBase.jpg using Guid(f0fbd03c5c69bba4bb38ba3b06a2b570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15275ca4acf0555cf4935115ef3b3f3d') in 0.026047 seconds 
+  Import took 0.029045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Texturas/MapaPrincipal/pisoBaseMapa.jpg
+  artifactKey: Guid(03d72c9d7ec20f749b6c9fd424ab5598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/MapaPrincipal/pisoBaseMapa.jpg using Guid(03d72c9d7ec20f749b6c9fd424ab5598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '303424b43801022628085e101586dc84') in 0.018906 seconds 
+  Import took 0.021499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001446 seconds.
+  path: Assets/Texturas/MapaPrincipal/pisoBaseMapa.jpg
+  artifactKey: Guid(03d72c9d7ec20f749b6c9fd424ab5598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/MapaPrincipal/pisoBaseMapa.jpg using Guid(03d72c9d7ec20f749b6c9fd424ab5598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '303424b43801022628085e101586dc84') in 0.020218 seconds 
+  Import took 0.023212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.684061 seconds.
+  path: Assets/Texturas/Logos/Odontologia.png
+  artifactKey: Guid(bc4f4fbf65218004b9a2dd9b418df2cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/Logos/Odontologia.png using Guid(bc4f4fbf65218004b9a2dd9b418df2cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '985b4a583f5453b546b31cdb421a6231') in 0.012279 seconds 
+  Import took 0.015513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.924816 seconds.
+  path: Assets/Texturas/Logos/Odontologia.png
+  artifactKey: Guid(bc4f4fbf65218004b9a2dd9b418df2cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/Logos/Odontologia.png using Guid(bc4f4fbf65218004b9a2dd9b418df2cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7eb4e5b00a2aa2eb0b67cd113e44307') in 0.015814 seconds 
+  Import took 0.018859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 76.520808 seconds.
+  path: Assets/Texturas/Logos/Materials
+  artifactKey: Guid(f852091369ed4944baab564da1d50390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/Logos/Materials using Guid(f852091369ed4944baab564da1d50390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ab53206d3edd76a6ecab2d986e48604') in 0.009802 seconds 
+  Import took 0.012619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.084651 seconds.
+  path: Assets/Texturas/Logos/Materials/logoU.mat
+  artifactKey: Guid(25f57b62e09bd994eb6156c3db732444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/Logos/Materials/logoU.mat using Guid(25f57b62e09bd994eb6156c3db732444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ac4da71a9262d4ba444eee595676c50') in 0.012456 seconds 
+  Import took 0.015386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Texturas/Logos/Materials/Odontologia.mat
+  artifactKey: Guid(cc8df308631389348b649c08f451f9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/Logos/Materials/Odontologia.mat using Guid(cc8df308631389348b649c08f451f9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '363a62122556d0985169b1b43a3e0046') in 0.013571 seconds 
+  Import took 0.016268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.316390 seconds.
+  path: Assets/Texturas/Logos/Odontologia.png
+  artifactKey: Guid(bc4f4fbf65218004b9a2dd9b418df2cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/Logos/Odontologia.png using Guid(bc4f4fbf65218004b9a2dd9b418df2cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52cd244fe7c4ee9fb6411e704dc08dce') in 0.018138 seconds 
+  Import took 0.021109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 82.968702 seconds.
+  path: Assets/Materiales/Facultades
+  artifactKey: Guid(6ecfe42d6ba1025468cc8604409ac7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materiales/Facultades using Guid(6ecfe42d6ba1025468cc8604409ac7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83b346814eda1ee000e4729ba92a5a95') in 0.002320 seconds 
+  Import took 0.005741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4838.457373 seconds.
+  path: Assets/Materiales/MapasFacultades/CienciasSalud/CerradurasPuerta.mat
+  artifactKey: Guid(d5b2d96369ebe5d4eb80619f88392363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materiales/MapasFacultades/CienciasSalud/CerradurasPuerta.mat using Guid(d5b2d96369ebe5d4eb80619f88392363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ad1657c0d69a8fbf3e30098daeb89f2') in 0.027707 seconds 
+  Import took 0.034564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Materiales/MapasFacultades/CienciasSalud/Puertas.mat
+  artifactKey: Guid(25fd0b0efb6109f4e8cef0c73f417bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materiales/MapasFacultades/CienciasSalud/Puertas.mat using Guid(25fd0b0efb6109f4e8cef0c73f417bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d45d481eeaa45386567a83cfa7481cf') in 0.014781 seconds 
+  Import took 0.017619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Materiales/MapasFacultades/CienciasSalud/Paredes.mat
+  artifactKey: Guid(d88b2cafacc35954490ec8454911060a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materiales/MapasFacultades/CienciasSalud/Paredes.mat using Guid(d88b2cafacc35954490ec8454911060a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58bf5d13732d2935ea4bfca3c81ef3ad') in 0.019794 seconds 
+  Import took 0.022825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Materiales/MapasFacultades/CienciasSalud/Faros.mat
+  artifactKey: Guid(2f7f9b352e5cfc64baa923afd6b96dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materiales/MapasFacultades/CienciasSalud/Faros.mat using Guid(2f7f9b352e5cfc64baa923afd6b96dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3dc971f8f57c74ce0868427ad15ba19') in 0.014245 seconds 
+  Import took 0.017084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Materiales/MapasFacultades/CienciasSalud/PisoTecho.mat
+  artifactKey: Guid(4b68a68ac050bed4d8c4e369fa4bc709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materiales/MapasFacultades/CienciasSalud/PisoTecho.mat using Guid(4b68a68ac050bed4d8c4e369fa4bc709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '780dce8700a0d2e5de757ca80e58af3f') in 0.014197 seconds 
+  Import took 0.016967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Materiales/MapasFacultades/CienciasSalud/Faros.mat
+  artifactKey: Guid(2f7f9b352e5cfc64baa923afd6b96dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materiales/MapasFacultades/CienciasSalud/Faros.mat using Guid(2f7f9b352e5cfc64baa923afd6b96dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3dc971f8f57c74ce0868427ad15ba19') in 0.007058 seconds 
+  Import took 0.009815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Materiales/MapasFacultades/CienciasSalud/PisoTecho.mat
+  artifactKey: Guid(4b68a68ac050bed4d8c4e369fa4bc709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materiales/MapasFacultades/CienciasSalud/PisoTecho.mat using Guid(4b68a68ac050bed4d8c4e369fa4bc709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '780dce8700a0d2e5de757ca80e58af3f') in 0.013287 seconds 
+  Import took 0.016339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5484.501222 seconds.
+  path: Assets/Materiales/Facultades/CienciasSalud
+  artifactKey: Guid(ba08f73593fe0a94086251deff0b3526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materiales/Facultades/CienciasSalud using Guid(ba08f73593fe0a94086251deff0b3526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4a4e3625c363190eaccf2f1580611c9') in 0.009503 seconds 
+  Import took 0.012772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.815045 seconds.
+  path: Assets/Materiales/Facultades/CienciasSalud/Cruz.mat
+  artifactKey: Guid(9fd0be5a3b3793e4eb50f21824beec6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materiales/Facultades/CienciasSalud/Cruz.mat using Guid(9fd0be5a3b3793e4eb50f21824beec6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae06da84f20ee29a0f599eab3cbf27a8') in 0.025876 seconds 
+  Import took 0.029036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.026027 seconds.
+  path: Assets/Materiales/Facultades/CienciasSalud/Cruz.mat
+  artifactKey: Guid(9fd0be5a3b3793e4eb50f21824beec6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materiales/Facultades/CienciasSalud/Cruz.mat using Guid(9fd0be5a3b3793e4eb50f21824beec6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b75d99967a324719568752f7c1c1242') in 0.014691 seconds 
+  Import took 0.018093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.010052 seconds.
+  path: Assets/Materiales/Facultades/CienciasSalud/Frasco.mat
+  artifactKey: Guid(02b0f44b3c45857458bcaa8737255ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materiales/Facultades/CienciasSalud/Frasco.mat using Guid(02b0f44b3c45857458bcaa8737255ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef4c3ac58f73189b453ac68c8387be6b') in 0.013218 seconds 
+  Import took 0.016152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.547882 seconds.
+  path: Assets/Materiales/Facultades/CienciasSalud/Letras.mat
+  artifactKey: Guid(efc78f56d5c200d47ae1ffdda2a68191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materiales/Facultades/CienciasSalud/Letras.mat using Guid(efc78f56d5c200d47ae1ffdda2a68191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '227b8bf8ae841d5ed75652562f0ec0d5') in 0.014533 seconds 
+  Import took 0.017394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.641416 seconds.
+  path: Assets/Materiales/Facultades/CienciasSalud/Frasco.mat
+  artifactKey: Guid(02b0f44b3c45857458bcaa8737255ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materiales/Facultades/CienciasSalud/Frasco.mat using Guid(02b0f44b3c45857458bcaa8737255ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70322e1bacb4ac6a7448e21e81c253ac') in 0.013627 seconds 
+  Import took 0.016828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.420532 seconds.
+  path: Assets/Materiales/Facultades/CienciasSalud/Letras.mat
+  artifactKey: Guid(efc78f56d5c200d47ae1ffdda2a68191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materiales/Facultades/CienciasSalud/Letras.mat using Guid(efc78f56d5c200d47ae1ffdda2a68191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dce4c7bcdf3e72dcc4970cfa747a0b5') in 0.013505 seconds 
+  Import took 0.017062 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003118 seconds.
+Registered in 0.003012 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.047 seconds
+- Completed reload, in  1.202 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1048ms)
-		BeginReloadAssembly (111ms)
+	ReloadAssembly (1202ms)
+		BeginReloadAssembly (166ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (878ms)
-			LoadAssemblies (80ms)
+			CreateAndSetChildDomain (71ms)
+		EndReloadAssembly (960ms)
+			LoadAssemblies (98ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (285ms)
+			SetupTypeCache (314ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (369ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (399ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (76ms)
-				ProcessInitializeOnLoadAttributes (278ms)
-				ProcessInitializeOnLoadMethodAttributes (3ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (297ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1764 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 94.5 MB.
-System memory in use after: 94.6 MB.
+System memory in use before: 101.0 MB.
+System memory in use after: 101.1 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2264.
-Total: 2.529500 ms (FindLiveObjects: 0.178900 ms CreateObjectMapping: 0.062400 ms MarkObjects: 2.267900 ms  DeleteObjects: 0.018700 ms)
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2324.
+Total: 2.573400 ms (FindLiveObjects: 0.244800 ms CreateObjectMapping: 0.089300 ms MarkObjects: 2.211800 ms  DeleteObjects: 0.025800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002371 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.071 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1072ms)
+		BeginReloadAssembly (101ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (913ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (259ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (422ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (310ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1764 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.0 MB.
+System memory in use after: 101.1 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2327.
+Total: 2.955000 ms (FindLiveObjects: 0.374600 ms CreateObjectMapping: 0.126000 ms MarkObjects: 2.424900 ms  DeleteObjects: 0.027900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
