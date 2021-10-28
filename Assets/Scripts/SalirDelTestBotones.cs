@@ -7,11 +7,11 @@ public class SalirDelTestBotones : MonoBehaviour
 {
     public void Salir()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("MapaFacultadCienciasSalud");
     }
 
     public void Finalizar()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("MapaFacultadCienciasSalud");
     }
 }
