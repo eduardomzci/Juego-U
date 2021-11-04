@@ -1,9 +1,5 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Escenarios/Facultades/MapaFacultadSocialesEmpresariales.unity
-=======
-- path: Assets/Escenarios/MapaPrincipal.unity
->>>>>>> c39b05c0623eff0f184e0238807faeb63cb07e70
+- path: Assets/Escenarios/Facultades/MapaFacultadArquitecturaGastronomia.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
