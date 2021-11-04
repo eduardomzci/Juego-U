@@ -16,6 +16,6 @@ public class SeguimientoCamaraPersonaje : MonoBehaviour
         float posX = follow.transform.position.x;
         float posZ = follow.transform.position.z;
 
-        transform.position = new Vector3(posX, transform.position.y, posZ + 14.80f);
+        transform.position = new Vector3(posX -56f, transform.position.y, posZ + 127f);
     }
 }

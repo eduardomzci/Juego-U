@@ -46,6 +46,46 @@
     <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
+<<<<<<< HEAD
+=======
+  <PropertyGroup>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <UnityProjectGenerator>Package</UnityProjectGenerator>
+    <UnityProjectGeneratorVersion>2.0.9</UnityProjectGeneratorVersion>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
+    <UnityVersion>2020.3.15f2</UnityVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Scripts\ControladorCursor.cs" />
+    <Compile Include="Assets\Scripts\CambiarEscenaDemo.cs" />
+    <Compile Include="Assets\Jammo-Character\Scripts\CharacterSkinController.cs" />
+    <Compile Include="Assets\Scripts\MostrarNombresMapaFacultadCienciasSalud.cs" />
+    <Compile Include="Assets\Scripts\SeguimientoCamaraPersonajeMapaFCienciasSalud.cs" />
+    <Compile Include="Assets\Akishaqs\Characters\_CommonFiles\_DemoStuff\Scripts\DragToRotate.cs" />
+    <Compile Include="Assets\Jammo-Character\Scripts\MovementInput.cs" />
+    <Compile Include="Assets\Scripts\EscenaTest.cs" />
+    <Compile Include="Assets\Scripts\MovimientoPersonaje.cs" />
+    <Compile Include="Assets\Scripts\SalirDeEscenarioCarrera.cs" />
+    <Compile Include="Assets\Scripts\SalirDelTestBotones.cs" />
+    <Compile Include="Assets\Scripts\cambioEscenaTestBioquicaFarmacia.cs" />
+    <Compile Include="Assets\Jammo-Character\Scripts\MoveRaycast.cs" />
+    <Compile Include="Assets\Scripts\SeguimientoCamaraPersonaje.cs" />
+    <Compile Include="Assets\Scripts\ResetearPanelCambiarContenido.cs" />
+    <Compile Include="Assets\Akishaqs\Characters\_CommonFiles\_DemoStuff\Scripts\Animations.cs" />
+    <Compile Include="Assets\Akishaqs\Characters\_CommonFiles\_DemoStuff\Scripts\Customizations.cs" />
+    <Compile Include="Assets\Scripts\cambioEscenarioFCienciasSalud.cs" />
+    <Compile Include="Assets\Scripts\volverMapaPrincipal.cs" />
+    <Compile Include="Assets\Scripts\nombreFacultadPersonajeVista.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Akishaqs\Characters\_CommonFiles\_DemoStuff\Fonts\OFL.txt" />
+    <None Include="Assets\BrokenVector\LowPolyTreePack\README.txt" />
+  </ItemGroup>
+>>>>>>> c39b05c0623eff0f184e0238807faeb63cb07e70
   <ItemGroup>
      <Compile Include="Assets\Scripts\ControladorCursor.cs" />
      <Compile Include="Assets\Scripts\CambiarEscenaDemo.cs" />
