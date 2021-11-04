@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Escenarios/Facultades/MapaFacultadCienciasSalud.unity
+- path: Assets/Escenarios/Facultades/MapaFacultadSocialesEmpresariales.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
