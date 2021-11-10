@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Escenarios/Facultades/MapaFacultadArquitecturaGastronomia.unity
+- path: Assets/Escenarios/Test/TestFacultadInformatica.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

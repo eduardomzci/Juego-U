@@ -68,6 +68,7 @@
     <Compile Include="Assets\Scripts\SalirDeEscenarioCarrera.cs" />
     <Compile Include="Assets\Scripts\SalirDelTestBotones.cs" />
     <Compile Include="Assets\Scripts\cambioEscenaTestBioquicaFarmacia.cs" />
+    <Compile Include="Assets\Scripts\SeguimientoCamaraPersonaje_MapaFacultadTecnologia.cs" />
     <Compile Include="Assets\Jammo-Character\Scripts\MoveRaycast.cs" />
     <Compile Include="Assets\Scripts\SeguimientoCamaraPersonaje.cs" />
     <Compile Include="Assets\Scripts\ResetearPanelCambiarContenido.cs" />
@@ -76,7 +77,6 @@
     <Compile Include="Assets\Scripts\cambioEscenarioFCienciasSalud.cs" />
     <Compile Include="Assets\Scripts\volverMapaPrincipal.cs" />
     <Compile Include="Assets\Scripts\nombreFacultadPersonajeVista.cs" />
-    <Compile Include="Assets\Scripts\SeguimientoCamaraPersonaje_MapaFacultadTecnologia.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Akishaqs\Characters\_CommonFiles\_DemoStuff\Fonts\OFL.txt" />
