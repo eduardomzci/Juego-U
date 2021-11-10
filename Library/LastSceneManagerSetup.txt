@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Escenarios/Test/TestFacultadInformatica.unity
+- path: Assets/Escenarios/MapaPrincipal.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
