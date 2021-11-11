@@ -32,4 +32,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Escenarios/Test/TestFacultadTecnologia.unity
     guid: 4a1578ff83e487b40a95dd4931162a3b
+  - enabled: 1
+    path: Assets/Escenarios/Test/TestFacultadInformatica.unity
+    guid: f63906d5ead211f4e9ba94ee31498cad
+  - enabled: 1
+    path: Assets/Escenarios/Test/TestFacultadArquitectura.unity
+    guid: d4972683c485e244eb36f375cf25a1ca
+  - enabled: 1
+    path: Assets/Escenarios/Test/TestFacultadEmpresariales.unity
+    guid: bb5688ec04dec2e469d2ed03f879e3db
   m_configObjects: {}
