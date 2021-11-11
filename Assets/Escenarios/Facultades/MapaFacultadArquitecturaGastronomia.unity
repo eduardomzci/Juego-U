@@ -452,7 +452,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 481173060}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1507817383}
+        m_TargetAssemblyTypeName: FacultadActivarOpcionMenuPausa, Assembly-CSharp
+        m_MethodName: ActivarOpcionContinuar
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &481173060
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -948,7 +960,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1281508692}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1507817383}
+        m_TargetAssemblyTypeName: FacultadActivarOpcionMenuPausa, Assembly-CSharp
+        m_MethodName: ActivarOpcionSalir
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1281508692
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1147,6 +1171,7 @@ GameObject:
   - component: {fileID: 1507817382}
   - component: {fileID: 1507817381}
   - component: {fileID: 1507817380}
+  - component: {fileID: 1507817383}
   m_Layer: 5
   m_Name: ButtonPausa
   m_TagString: Untagged
@@ -1217,7 +1242,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1507817381}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1507817383}
+        m_TargetAssemblyTypeName: FacultadActivarOpcionMenuPausa, Assembly-CSharp
+        m_MethodName: ActivarOpcionMenuPausa
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1507817381
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1256,6 +1293,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1507817378}
   m_CullTransparentMesh: 1
+--- !u!114 &1507817383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1507817378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a26adfb35fa3d6941ba709260a41a56d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MenuPausa: {fileID: 1532665766}
+  CanvasOpciones: {fileID: 2098203458}
+  Personaje: {fileID: 4661052156791176220}
 --- !u!1 &1532665766
 GameObject:
   m_ObjectHideFlags: 0
@@ -1274,7 +1326,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1532665767
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1877,7 +1929,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Volver al mapa
+  m_Text: Volver al mapa principal
 --- !u!222 &2123877310
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -7155,7 +7155,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &709913606
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18185,6 +18185,59 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1765565331}
   m_CullTransparentMesh: 1
+--- !u!1 &1766600547
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1766600548}
+  - component: {fileID: 1766600549}
+  m_Layer: 0
+  m_Name: ActivadorDeCarreras
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1766600548
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1766600547}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 293.9525, y: 3.4993725, z: -12.585793}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1766600549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1766600547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7727e77c89eb2d9439a84140b53f2c46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  carrera: 0
+  aeronautica: {fileID: 1172378669}
+  civil: {fileID: 1488414528}
+  electronica: {fileID: 1540737698}
+  Alimentaria: {fileID: 1288622203}
+  Industrial: {fileID: 968101494}
+  Sistemas: {fileID: 705078239}
+  Mecanica: {fileID: 1381713370}
+  PetroleoGas: {fileID: 896554545}
+  Petroquimica: {fileID: 187381854}
 --- !u!1 &1776464341
 GameObject:
   m_ObjectHideFlags: 0

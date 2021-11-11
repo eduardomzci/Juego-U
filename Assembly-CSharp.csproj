@@ -77,6 +77,13 @@
     <Compile Include="Assets\Scripts\cambioEscenarioFCienciasSalud.cs" />
     <Compile Include="Assets\Scripts\volverMapaPrincipal.cs" />
     <Compile Include="Assets\Scripts\nombreFacultadPersonajeVista.cs" />
+    <Compile Include="Assets\Scripts\CambioEscenarioFTecnologia.cs" />
+    <Compile Include="Assets\Scripts\CambioEscenarioFGastronomia.cs" />
+    <Compile Include="Assets\Scripts\CambiarEscenarioFEmpresarial.cs" />
+    <Compile Include="Assets\Scripts\CambioEscenarioFInformatica.cs" />
+    <Compile Include="Assets\Scripts\FacultadActivarOpcionMenuPausa.cs" />
+    <Compile Include="Assets\Scripts\Tp_Carreras\Tp_CarreraAeronautica.cs" />
+    <Compile Include="Assets\Scripts\Tp_Carreras\ActivadorDeCarrerasTecnologia.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Akishaqs\Characters\_CommonFiles\_DemoStuff\Fonts\OFL.txt" />

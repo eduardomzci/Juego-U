@@ -10,7 +10,7 @@ public class CambiarEscenaDemo : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            SceneManager.LoadScene("Carrera1");
+            //SceneManager.LoadScene("Carrera1");
         }
     }
 

@@ -24,7 +24,7 @@ public class cambioEscenarioFCienciasSalud : MonoBehaviour
 
     public void CambiarescenarioMapaFacultadCienciasSalud()
     {
-        SceneManager.LoadScene("MapaFacultadCienciasSalud");
+        SceneManager.LoadScene("MapaFacultadCienciasSalus");
     }
     public void SalirCanvas()
     {

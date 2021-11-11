@@ -9,12 +9,27 @@ EditorBuildSettings:
     path: Assets/Escenarios/MapaPrincipal.unity
     guid: 6e96dddd7d977d2419ff7065583ae671
   - enabled: 1
-    path: Assets/Escenarios/Carrera1.unity
-    guid: 1182963786f9fea498bfff4787f7686e
-  - enabled: 1
     path: Assets/Escenarios/Test/TestFacultadCienciasSalud.unity
     guid: 0195420daa9c732468a5b50ef9daa6c4
   - enabled: 1
     path: Assets/Escenarios/Facultades/MapaFacultadCienciasSalud.unity
     guid: 2e690f92d2bd0ea40be7874f12ea316d
+  - enabled: 1
+    path: Assets/Escenarios/Facultades/MapaFacultadArquitecturaGastronomia.unity
+    guid: de76ead49e03e3f40b0e8b5785f6b37b
+  - enabled: 1
+    path: Assets/Escenarios/Facultades/MapaFacultadCienciasSalus.unity
+    guid: 264175aea11146d44993a0ef94b7cd95
+  - enabled: 1
+    path: Assets/Escenarios/Facultades/MapaFacultadInformaticaElectronica.unity
+    guid: 2afac80b06c6473479427ed0d45138cb
+  - enabled: 1
+    path: Assets/Escenarios/Facultades/MapaFacultadSocialesEmpresariales.unity
+    guid: 7dc851b8165bf7c4ea99fafb5db4f032
+  - enabled: 1
+    path: Assets/Escenarios/Facultades/MapaFacultadTecnologia.unity
+    guid: 751815860e57fcb458e6f8f20281fa92
+  - enabled: 1
+    path: Assets/Escenarios/Test/TestFacultadTecnologia.unity
+    guid: 4a1578ff83e487b40a95dd4931162a3b
   m_configObjects: {}
