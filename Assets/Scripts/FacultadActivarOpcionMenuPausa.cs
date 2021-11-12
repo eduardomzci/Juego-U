@@ -38,4 +38,26 @@ public class FacultadActivarOpcionMenuPausa : MonoBehaviour
     {
         SceneManager.LoadScene("MapaPrincipal");
     }
+
+
+    public void Tp_Menu_Facultad_Tecnologia()
+    {
+        SceneManager.LoadScene("MapaFacultadTecnologia");
+    }
+    public void Tp_Menu_Facultad_Informatica()
+    {
+        SceneManager.LoadScene("MapaFacultadInformaticaElectronica");
+    }
+    public void Tp_Menu_Facultad_Arquitectura()
+    {
+        SceneManager.LoadScene("MapaFacultadArquitecturaGastronomia");
+    }
+    public void Tp_Menu_Facultad_Empresarial()
+    {
+        SceneManager.LoadScene("MapaFacultadSocialesEmpresariales");
+    }
+    public void Tp_Menu_Facultad_Salus()
+    {
+        SceneManager.LoadScene("MapaFacultadCienciasSalus");
+    }
 }
