@@ -277,7 +277,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 644215226}
         m_TargetAssemblyTypeName: FacultadActivarOpcionMenuPausa, Assembly-CSharp
-        m_MethodName: ActivarOpcionContinuar
+        m_MethodName: ActivarOpcion_CancelarOtrosMapas
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1710,7 +1710,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -856, y: 361}
+  m_AnchoredPosition: {x: -856, y: 458}
   m_SizeDelta: {x: 120, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &644215223
@@ -1819,8 +1819,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a26adfb35fa3d6941ba709260a41a56d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MenuPausa: {fileID: 502465641}
+  MenuPausa: {fileID: 167863075}
   CanvasOpciones: {fileID: 453957915}
+  CanvasOpciones_OtrasFacultades: {fileID: 502465641}
   Personaje: {fileID: 4164860577677231929}
 --- !u!1 &717633287
 GameObject:
@@ -2172,9 +2173,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 644215226}
         m_TargetAssemblyTypeName: FacultadActivarOpcionMenuPausa, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: ActivarOpcion_OtrosMapas
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
