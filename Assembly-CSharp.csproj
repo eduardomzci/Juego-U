@@ -59,6 +59,7 @@
     <Compile Include="Assets\Scripts\ControladorCursor.cs" />
     <Compile Include="Assets\Scripts\CambiarEscenaDemo.cs" />
     <Compile Include="Assets\Jammo-Character\Scripts\CharacterSkinController.cs" />
+    <Compile Include="Assets\Scripts\CambioEscenarioFTecnologia.cs" />
     <Compile Include="Assets\Scripts\MostrarNombresMapaFacultadCienciasSalud.cs" />
     <Compile Include="Assets\Scripts\SeguimientoCamaraPersonajeMapaFCienciasSalud.cs" />
     <Compile Include="Assets\Akishaqs\Characters\_CommonFiles\_DemoStuff\Scripts\DragToRotate.cs" />
@@ -68,15 +69,36 @@
     <Compile Include="Assets\Scripts\SalirDeEscenarioCarrera.cs" />
     <Compile Include="Assets\Scripts\SalirDelTestBotones.cs" />
     <Compile Include="Assets\Scripts\cambioEscenaTestBioquicaFarmacia.cs" />
+    <Compile Include="Assets\Scripts\FacultadActivarOpcionMenuPausa.cs" />
     <Compile Include="Assets\Scripts\SeguimientoCamaraPersonaje_MapaFacultadTecnologia.cs" />
+    <Compile Include="Assets\Scripts\Tp_Carreras_Tecnologia\Tp_CarreraAeronautica.cs" />
     <Compile Include="Assets\Jammo-Character\Scripts\MoveRaycast.cs" />
     <Compile Include="Assets\Scripts\SeguimientoCamaraPersonaje.cs" />
     <Compile Include="Assets\Scripts\ResetearPanelCambiarContenido.cs" />
     <Compile Include="Assets\Akishaqs\Characters\_CommonFiles\_DemoStuff\Scripts\Animations.cs" />
+    <Compile Include="Assets\Scripts\Tp_Carreras_Tecnologia\ActivadorDeCarrerasTecnologia.cs" />
+    <Compile Include="Assets\Scripts\CambiarEscenarioFEmpresarial.cs" />
     <Compile Include="Assets\Akishaqs\Characters\_CommonFiles\_DemoStuff\Scripts\Customizations.cs" />
     <Compile Include="Assets\Scripts\cambioEscenarioFCienciasSalud.cs" />
     <Compile Include="Assets\Scripts\volverMapaPrincipal.cs" />
+    <Compile Include="Assets\Scripts\CambioEscenarioFInformatica.cs" />
     <Compile Include="Assets\Scripts\nombreFacultadPersonajeVista.cs" />
+    <Compile Include="Assets\Scripts\CambioEscenarioFGastronomia.cs" />
+    <Compile Include="Assets\Scripts\Tp_Carreras_Tecnologia\ActivarOpcionePausaContinuarSalirParaTecnologia.cs" />
+    <Compile Include="Assets\Scripts\Tp_Carreras_Tecnologia\ActivarContinuar_tecnologia_segunIndice.cs" />
+    <Compile Include="Assets\Scripts\Tp_Carreras_Empresariales\Tp_Carrera_Empresarial.cs" />
+    <Compile Include="Assets\Scripts\Tp_Carreras_Empresariales\ActivadorDeCarreras_Empresarial.cs" />
+    <Compile Include="Assets\Scripts\Tp_Carreras_Empresariales\ActivarContinuar_Empresarial_segunIndice.cs" />
+    <Compile Include="Assets\Scripts\Tp_Carreras_Informatica\ActivadorDeCarreras_Informatica.cs" />
+    <Compile Include="Assets\Scripts\Tp_Carreras_Informatica\ActvarContinuar_Informatica.cs" />
+    <Compile Include="Assets\Scripts\Tp_Carreras_Informatica\Tp_Carrera_Informatica.cs" />
+    <Compile Include="Assets\Scripts\Tp_Carreras_Salus\ActivadorDeCarreras_Salus.cs" />
+    <Compile Include="Assets\Scripts\Tp_Carreras_Salus\Tp_Carrera_Salus.cs" />
+    <Compile Include="Assets\Scripts\Tp_Carreras_Salus\ActivadorContinuar_Salus.cs" />
+    <Compile Include="Assets\Scripts\Tp_Carreras_Gastronomia\ActivadorContinuar_Gastronomia.cs" />
+    <Compile Include="Assets\Scripts\Tp_Carreras_Gastronomia\ActivadorCarreras_Gastronomia.cs" />
+    <Compile Include="Assets\Scripts\Tp_Carreras_Gastronomia\Tp_Carrera_Gastronomia.cs" />
+    <Compile Include="Assets\Scripts\Tp_Facultades_Portales\Tp_Facultades_Portales.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Akishaqs\Characters\_CommonFiles\_DemoStuff\Fonts\OFL.txt" />

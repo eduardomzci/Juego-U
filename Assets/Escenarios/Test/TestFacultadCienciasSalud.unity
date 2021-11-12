@@ -135,13 +135,14 @@ GameObject:
   - component: {fileID: 8731872}
   - component: {fileID: 8731871}
   - component: {fileID: 8731870}
+  - component: {fileID: 8731874}
   m_Layer: 5
   m_Name: MenuPausa
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &8731870
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -216,13 +217,33 @@ RectTransform:
   m_Children:
   - {fileID: 405240644}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &8731874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8731869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87d3fa9c67f5c9548857d0434fc9eb23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MenuPausa: {fileID: 8731869}
+  medicina: {fileID: 2030090714}
+  odontologia: {fileID: 1141694927}
+  farmacia: {fileID: 2106579480}
+  enfermeria: {fileID: 349656757}
+  fisioterapia: {fileID: 1491873192}
+  cambioEscenaCarreras: salus
+  carrera: 0
 --- !u!1 &14001898
 GameObject:
   m_ObjectHideFlags: 0
@@ -1575,7 +1596,7 @@ RectTransform:
   - {fileID: 1382191326}
   - {fileID: 1756896657}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1814,7 +1835,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 399813135}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8731874}
+        m_TargetAssemblyTypeName: ActivadorContinuar_Salus, Assembly-CSharp
+        m_MethodName: activarOpcionMenuPausa
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &399813135
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2704,7 +2737,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 555867241}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8731874}
+        m_TargetAssemblyTypeName: ActivadorContinuar_Salus, Assembly-CSharp
+        m_MethodName: activarOpcionMenuPausa
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &555867241
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3201,7 +3246,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &620539585
 GameObject:
@@ -5055,7 +5100,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 883627991}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8731874}
+        m_TargetAssemblyTypeName: ActivadorContinuar_Salus, Assembly-CSharp
+        m_MethodName: activarOpcionMenuPausa
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &883627991
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6535,7 +6592,7 @@ RectTransform:
   - {fileID: 1408169637}
   - {fileID: 15510501}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -6778,7 +6835,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1173778643}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8731874}
+        m_TargetAssemblyTypeName: ActivadorContinuar_Salus, Assembly-CSharp
+        m_MethodName: activarContinuar
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1173778643
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7878,7 +7947,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1372720132}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8731874}
+        m_TargetAssemblyTypeName: ActivadorContinuar_Salus, Assembly-CSharp
+        m_MethodName: activarOpcionMenuPausa
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1372720132
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8499,7 +8580,7 @@ RectTransform:
   - {fileID: 1008801052}
   - {fileID: 681447295}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -9935,7 +10016,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1838734296}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8731874}
+        m_TargetAssemblyTypeName: ActivadorContinuar_Salus, Assembly-CSharp
+        m_MethodName: ActivarOpcionSalir
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1838734296
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10131,7 +10224,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1861258248}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8731874}
+        m_TargetAssemblyTypeName: ActivadorContinuar_Salus, Assembly-CSharp
+        m_MethodName: activarOpcionMenuPausa
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1861258248
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11426,7 +11531,7 @@ RectTransform:
   - {fileID: 2007114718}
   - {fileID: 184739845}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -12042,13 +12147,63 @@ RectTransform:
   - {fileID: 1970944938}
   - {fileID: 676406875}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &2112556755
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2112556757}
+  - component: {fileID: 2112556756}
+  m_Layer: 0
+  m_Name: ActivadorDeCarreras
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2112556756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2112556755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be978613068beb44faa6eb21a2054327, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cambioEscenaCarreras: salus
+  carrera: 0
+  medicina: {fileID: 2030090714}
+  odontologia: {fileID: 1141694927}
+  farmacia: {fileID: 2106579480}
+  enfermeria: {fileID: 349656757}
+  fisioterapia: {fileID: 1491873192}
+--- !u!4 &2112556757
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2112556755}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1237.4731, y: 744.3196, z: 257.15918}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2116680642
 GameObject:
   m_ObjectHideFlags: 0

@@ -449,7 +449,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 19489984}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 709913610}
+        m_TargetAssemblyTypeName: ActivarContinuar_tecnologia_segunIndice, Assembly-CSharp
+        m_MethodName: activarOpcionMenuPausa
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &19489984
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2356,7 +2368,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 204976890}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 709913610}
+        m_TargetAssemblyTypeName: ActivarContinuar_tecnologia_segunIndice, Assembly-CSharp
+        m_MethodName: activarOpcionMenuPausa
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &204976890
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7149,13 +7173,14 @@ GameObject:
   - component: {fileID: 709913608}
   - component: {fileID: 709913607}
   - component: {fileID: 709913606}
+  - component: {fileID: 709913610}
   m_Layer: 5
   m_Name: MenuPausa
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &709913606
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7237,6 +7262,30 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &709913610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 709913605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc16fc9ea0cc22f4ebbe056e10692939, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MenuPausa: {fileID: 709913605}
+  aeronautica: {fileID: 1172378669}
+  civil: {fileID: 1488414528}
+  electronica: {fileID: 1540737698}
+  Alimentaria: {fileID: 1288622203}
+  Industrial: {fileID: 968101494}
+  Sistemas: {fileID: 705078239}
+  Mecanica: {fileID: 1381713370}
+  PetroleoGas: {fileID: 896554545}
+  Petroquimica: {fileID: 187381854}
+  cambioEscenaCarreras: tecnologia
+  carrera: 0
 --- !u!1 &710011305
 GameObject:
   m_ObjectHideFlags: 0
@@ -7791,7 +7840,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 726245071}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 709913610}
+        m_TargetAssemblyTypeName: ActivarContinuar_tecnologia_segunIndice, Assembly-CSharp
+        m_MethodName: activarOpcionMenuPausa
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &726245071
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8225,7 +8286,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 785838463}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 709913610}
+        m_TargetAssemblyTypeName: ActivarContinuar_tecnologia_segunIndice, Assembly-CSharp
+        m_MethodName: activarOpcionMenuPausa
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &785838463
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8748,7 +8821,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 825240614}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 709913610}
+        m_TargetAssemblyTypeName: ActivarContinuar_tecnologia_segunIndice, Assembly-CSharp
+        m_MethodName: activarOpcionMenuPausa
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &825240614
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11517,7 +11602,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1093145218}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 709913610}
+        m_TargetAssemblyTypeName: ActivarContinuar_tecnologia_segunIndice, Assembly-CSharp
+        m_MethodName: activarOpcionMenuPausa
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1093145218
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12029,7 +12126,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1157652135}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 709913610}
+        m_TargetAssemblyTypeName: ActivarContinuar_tecnologia_segunIndice, Assembly-CSharp
+        m_MethodName: activarOpcionMenuPausa
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1157652135
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12667,7 +12776,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1214027860}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 709913610}
+        m_TargetAssemblyTypeName: ActivarContinuar_tecnologia_segunIndice, Assembly-CSharp
+        m_MethodName: activarContinuar
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1214027860
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14140,7 +14261,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1346214581}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 709913610}
+        m_TargetAssemblyTypeName: ActivarContinuar_tecnologia_segunIndice, Assembly-CSharp
+        m_MethodName: activarOpcionMenuPausa
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1346214581
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14412,7 +14545,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1363207334}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 709913610}
+        m_TargetAssemblyTypeName: ActivarContinuar_tecnologia_segunIndice, Assembly-CSharp
+        m_MethodName: ActivarOpcionSalir
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1363207334
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18185,6 +18330,60 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1765565331}
   m_CullTransparentMesh: 1
+--- !u!1 &1766600547
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1766600548}
+  - component: {fileID: 1766600549}
+  m_Layer: 0
+  m_Name: ActivadorDeCarreras
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1766600548
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1766600547}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 293.9525, y: 3.4993725, z: -12.585793}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1766600549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1766600547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7727e77c89eb2d9439a84140b53f2c46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cambioEscenaCarreras: tecnologia
+  carrera: 0
+  aeronautica: {fileID: 1172378669}
+  civil: {fileID: 1488414528}
+  electronica: {fileID: 1540737698}
+  Alimentaria: {fileID: 1288622203}
+  Industrial: {fileID: 968101494}
+  Sistemas: {fileID: 705078239}
+  Mecanica: {fileID: 1381713370}
+  PetroleoGas: {fileID: 896554545}
+  Petroquimica: {fileID: 187381854}
 --- !u!1 &1776464341
 GameObject:
   m_ObjectHideFlags: 0
@@ -19321,6 +19520,72 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1944279551}
   m_CullTransparentMesh: 1
+--- !u!1 &1961923721
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1961923724}
+  - component: {fileID: 1961923723}
+  - component: {fileID: 1961923722}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1961923722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1961923721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &1961923723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1961923721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &1961923724
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1961923721}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1966818734
 GameObject:
   m_ObjectHideFlags: 0
@@ -19814,7 +20079,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1985336299}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 709913610}
+        m_TargetAssemblyTypeName: ActivarContinuar_tecnologia_segunIndice, Assembly-CSharp
+        m_MethodName: activarOpcionMenuPausa
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1985336299
 MonoBehaviour:
   m_ObjectHideFlags: 0
