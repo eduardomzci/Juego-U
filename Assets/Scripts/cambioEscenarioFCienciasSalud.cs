@@ -7,6 +7,7 @@ public class cambioEscenarioFCienciasSalud : MonoBehaviour
 {
     public GameObject HabilitarObject;
     public GameObject Personaje;
+    //public GameObject ll;
     public void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Player")
@@ -25,6 +26,8 @@ public class cambioEscenarioFCienciasSalud : MonoBehaviour
     public void CambiarescenarioMapaFacultadCienciasSalud()
     {
         SceneManager.LoadScene("MapaFacultadCienciasSalus");
+        //ll.nombreEscena = "MapaFacultadCienciasSalus";
+        //StartCoroutine(ll.GetComponent<LoadLevelScript>().LoadLevel1("MapaFacultadCienciasSalus"));
     }
     public void SalirCanvas()
     {

@@ -99,6 +99,8 @@
     <Compile Include="Assets\Scripts\CambioEscenarioFInformatica.cs" />
     <Compile Include="Assets\Scripts\nombreFacultadPersonajeVista.cs" />
     <Compile Include="Assets\Scripts\CambioEscenarioFGastronomia.cs" />
+    <Compile Include="Assets\Scripts\Animations\LoadLevelScript.cs" />
+    <Compile Include="Assets\Scripts\Tp_MapaPrincipal_Portales\Portales.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Akishaqs\Characters\_CommonFiles\_DemoStuff\Fonts\OFL.txt" />
