@@ -56,13 +56,16 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\AditivosParaTransiciones\AditivoTransicion.cs" />
     <Compile Include="Assets\Scripts\ControladorCursor.cs" />
     <Compile Include="Assets\Scripts\CambiarEscenaDemo.cs" />
     <Compile Include="Assets\Jammo-Character\Scripts\CharacterSkinController.cs" />
     <Compile Include="Assets\Scripts\Tp_Carreras_Informatica\ActvarContinuar_Informatica.cs" />
+    <Compile Include="Assets\Scripts\Animations_Univalle\Portal_EscenaChangue.cs" />
     <Compile Include="Assets\Scripts\Tp_Carreras_Tecnologia\ActivarOpcionePausaContinuarSalirParaTecnologia.cs" />
     <Compile Include="Assets\Scripts\Tp_Facultades_Portales\Tp_Facultades_Portales.cs" />
     <Compile Include="Assets\Scripts\CambioEscenarioFTecnologia.cs" />
+    <Compile Include="Assets\Scripts\Animations_Univalle\LoadLevel.cs" />
     <Compile Include="Assets\Scripts\MostrarNombresMapaFacultadCienciasSalud.cs" />
     <Compile Include="Assets\Scripts\Tp_Carreras_Empresariales\ActivadorDeCarreras_Empresarial.cs" />
     <Compile Include="Assets\Scripts\Tp_Carreras_Informatica\ActivadorDeCarreras_Informatica.cs" />
@@ -99,9 +102,6 @@
     <Compile Include="Assets\Scripts\CambioEscenarioFInformatica.cs" />
     <Compile Include="Assets\Scripts\nombreFacultadPersonajeVista.cs" />
     <Compile Include="Assets\Scripts\CambioEscenarioFGastronomia.cs" />
-    <Compile Include="Assets\Scripts\Animations_Univalle\LoadLevel.cs" />
-    <Compile Include="Assets\Scripts\Animations_Univalle\Portal_EscenaChangue.cs" />
-    <Compile Include="Assets\Scripts\AditivosParaTransiciones\AditivoTransicion.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Akishaqs\Characters\_CommonFiles\_DemoStuff\Fonts\OFL.txt" />
