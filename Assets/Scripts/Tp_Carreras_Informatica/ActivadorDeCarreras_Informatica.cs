@@ -16,6 +16,12 @@ public class ActivadorDeCarreras_Informatica : MonoBehaviour
     public void Awake()
     {
         LoadData();
+        StartCoroutine(tiempoEspera());
+    }
+
+    public IEnumerator tiempoEspera()
+    {
+        yield return new WaitForSeconds(1.0f);
         if (carrera == 0)
         {
             biomedica.SetActive(true);
@@ -33,7 +39,6 @@ public class ActivadorDeCarreras_Informatica : MonoBehaviour
             sistemasinformaticos.SetActive(true);
         }
     }
-
 
     public void LoadData()
     {

@@ -8,6 +8,9 @@ public class Tp_Carrera_Gastronomia : MonoBehaviour
     public string cambioEscenaCarreras = "gastronomia";
     public int carrera;
 
+    public Canvas c;
+    public LoadLevel ll;
+
     public void Awake()
     {
         LoadData();
@@ -18,7 +21,9 @@ public class Tp_Carrera_Gastronomia : MonoBehaviour
         if (other.tag == "Player")
         {
             PlayerPrefs.SetInt(cambioEscenaCarreras, carrera);
-            SceneManager.LoadScene("TestFacultadArquitectura");
+            //SceneManager.LoadScene("TestFacultadArquitectura");
+            c.enabled = false;
+            StartCoroutine(ll.LoadLevel1("TestFacultadArquitectura"));
         }
     }
 

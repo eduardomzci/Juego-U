@@ -16,6 +16,8 @@ public class ActvarContinuar_Informatica : MonoBehaviour
     public string cambioEscenaCarreras = "informatica";
     public int carrera;
 
+    public LoadLevel ll;
+
     public void Awake()
     {
         LoadData();
@@ -73,7 +75,9 @@ public class ActvarContinuar_Informatica : MonoBehaviour
 
     public void ActivarOpcionSalir()
     {
-        SceneManager.LoadScene("MapaFacultadInformaticaElectronica");
+        //SceneManager.LoadScene("MapaFacultadInformaticaElectronica");
+        this.GetComponent<Canvas>().enabled = false;
+        StartCoroutine(ll.LoadLevel1("MapaFacultadInformaticaElectronica"));
     }
 
     public void LoadData()

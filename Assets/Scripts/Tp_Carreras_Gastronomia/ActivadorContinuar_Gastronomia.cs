@@ -16,6 +16,8 @@ public class ActivadorContinuar_Gastronomia : MonoBehaviour
     public string cambioEscenaCarreras = "gastronomia";
     public int carrera;
 
+    public LoadLevel ll;
+
     public void Awake()
     {
         LoadData();
@@ -73,7 +75,9 @@ public class ActivadorContinuar_Gastronomia : MonoBehaviour
 
     public void ActivarOpcionSalir()
     {
-        SceneManager.LoadScene("MapaFacultadArquitecturaGastronomia");
+        //SceneManager.LoadScene("MapaFacultadArquitecturaGastronomia");
+        this.GetComponent<Canvas>().enabled = false;
+        StartCoroutine(ll.LoadLevel1("MapaFacultadArquitecturaGastronomia"));
     }
 
     public void LoadData()

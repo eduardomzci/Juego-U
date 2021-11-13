@@ -21,6 +21,8 @@ public class ActivarContinuar_tecnologia_segunIndice : MonoBehaviour
     public string cambioEscenaCarreras = "tecnologia";
     public int carrera;
 
+    public LoadLevel ll;
+
     public void Awake()
     {
         LoadData();
@@ -126,7 +128,9 @@ public class ActivarContinuar_tecnologia_segunIndice : MonoBehaviour
 
     public void ActivarOpcionSalir()
     {
-        SceneManager.LoadScene("MapaFacultadTecnologia");
+        //SceneManager.LoadScene("MapaFacultadTecnologia");
+        this.GetComponent<Canvas>().enabled = false;
+        StartCoroutine(ll.LoadLevel1("MapaFacultadTecnologia"));
     }
 
     public void LoadData()

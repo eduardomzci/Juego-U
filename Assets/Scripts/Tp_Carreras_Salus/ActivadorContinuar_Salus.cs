@@ -17,6 +17,7 @@ public class ActivadorContinuar_Salus : MonoBehaviour
     public string cambioEscenaCarreras = "salus";
     public int carrera;
 
+    public LoadLevel ll;
     public void Awake()
     {
         LoadData();
@@ -84,7 +85,9 @@ public class ActivadorContinuar_Salus : MonoBehaviour
 
     public void ActivarOpcionSalir()
     {
-        SceneManager.LoadScene("MapaFacultadCienciasSalus");
+        //SceneManager.LoadScene("MapaFacultadCienciasSalus");
+        this.GetComponent<Canvas>().enabled = false;
+        StartCoroutine(ll.LoadLevel1("MapaFacultadCienciasSalus"));
     }
 
     public void LoadData()

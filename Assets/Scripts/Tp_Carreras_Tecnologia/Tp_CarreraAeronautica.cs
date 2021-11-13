@@ -7,6 +7,8 @@ public class Tp_CarreraAeronautica : MonoBehaviour
 {
     public string cambioEscenaCarreras = "tecnologia";
     public int carrera;
+    public LoadLevel ll;
+    public Canvas c;
 
     public void Awake()
     {
@@ -18,7 +20,9 @@ public class Tp_CarreraAeronautica : MonoBehaviour
         if (other.tag == "Player")
         {
             PlayerPrefs.SetInt(cambioEscenaCarreras, carrera);
-            SceneManager.LoadScene("TestFacultadTecnologia");
+            //SceneManager.LoadScene("TestFacultadTecnologia");
+            c.enabled = false;
+            StartCoroutine(ll.LoadLevel1("TestFacultadTecnologia"));
         }
     }
 

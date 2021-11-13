@@ -21,6 +21,12 @@ public class ActivadorDeCarrerasTecnologia : MonoBehaviour
     public void Awake()
     {
         LoadData();
+        StartCoroutine(tiempoEspera());
+    }
+
+    public IEnumerator tiempoEspera()
+    {
+        yield return new WaitForSeconds(1.0f);
         if (carrera == 0)
         {
             aeronautica.SetActive(true);
@@ -57,10 +63,7 @@ public class ActivadorDeCarrerasTecnologia : MonoBehaviour
         {
             Petroquimica.SetActive(true);
         }
-
     }
-
-
     public void LoadData()
     {
         carrera = PlayerPrefs.GetInt(cambioEscenaCarreras,-1);

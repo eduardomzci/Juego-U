@@ -16,6 +16,12 @@ public class ActivadorCarreras_Gastronomia : MonoBehaviour
     public void Awake()
     {
         LoadData();
+        StartCoroutine(tiempoEspera());
+    }
+
+    public IEnumerator tiempoEspera()
+    {
+        yield return new WaitForSeconds(1.0f);
         if (carrera == 0)
         {
             urbanismo.SetActive(true);
@@ -33,8 +39,6 @@ public class ActivadorCarreras_Gastronomia : MonoBehaviour
             turismo.SetActive(true);
         }
     }
-
-
     public void LoadData()
     {
         carrera = PlayerPrefs.GetInt(cambioEscenaCarreras, -1);

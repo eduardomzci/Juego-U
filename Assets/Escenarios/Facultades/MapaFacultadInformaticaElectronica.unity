@@ -396,7 +396,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &122133629
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -574,7 +574,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &185926510
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -747,9 +747,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1489560930}
         m_TargetAssemblyTypeName: FacultadActivarOpcionMenuPausa, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: Tp_Menu_Facultad_Arquitectura
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -974,7 +974,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &446855380
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1098,6 +1098,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cambioEscenaCarreras: informatica
   carrera: 2
+  c: {fileID: 1652296659}
+  ll: {fileID: 1818653144}
 --- !u!65 &503336735
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1257,9 +1259,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1489560930}
         m_TargetAssemblyTypeName: FacultadActivarOpcionMenuPausa, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: ActivarOpcion_CancelarOtrosMapas
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1341,6 +1343,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cambioEscenaCarreras: informatica
   carrera: 1
+  c: {fileID: 1652296659}
+  ll: {fileID: 1818653144}
 --- !u!65 &633072581
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1867,9 +1871,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1489560930}
         m_TargetAssemblyTypeName: FacultadActivarOpcionMenuPausa, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: ActivarOpcion_OtrosMapas
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2275,9 +2279,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1489560930}
         m_TargetAssemblyTypeName: FacultadActivarOpcionMenuPausa, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: Tp_Menu_Facultad_Empresarial
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2507,6 +2511,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cambioEscenaCarreras: informatica
   carrera: 3
+  c: {fileID: 1652296659}
+  ll: {fileID: 1818653144}
 --- !u!65 &1392043389
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2681,7 +2687,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1464953176
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2917,9 +2923,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a26adfb35fa3d6941ba709260a41a56d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MenuPausa: {fileID: 862565911}
-  CanvasOpciones: {fileID: 1652296656}
+  MenuPausa: {fileID: 1764630826}
+  CanvasOpciones: {fileID: 1652296659}
+  CanvasOpciones_OtrasFacultades: {fileID: 1095205081}
   Personaje: {fileID: 2452363600898071627}
+  ll: {fileID: 1818653144}
+  c: {fileID: 862565914}
 --- !u!1 &1567419755
 GameObject:
   m_ObjectHideFlags: 0
@@ -3106,6 +3115,7 @@ GameObject:
   - component: {fileID: 1652296659}
   - component: {fileID: 1652296658}
   - component: {fileID: 1652296657}
+  - component: {fileID: 1652296661}
   m_Layer: 5
   m_Name: CanvasOpciones
   m_TagString: Untagged
@@ -3194,6 +3204,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1652296661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1652296656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 565d8a311239fd9448391d80bafaaac0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1701726456
 GameObject:
   m_ObjectHideFlags: 0
@@ -3307,6 +3329,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cambioEscenaCarreras: informatica
   carrera: 0
+  c: {fileID: 1652296659}
+  ll: {fileID: 1818653144}
 --- !u!65 &1720151645
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3466,9 +3490,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1489560930}
         m_TargetAssemblyTypeName: FacultadActivarOpcionMenuPausa, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: Tp_Menu_Facultad_Informatica
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3595,6 +3619,114 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1764630826}
   m_CullTransparentMesh: 1
+--- !u!1001 &1818653143
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1004766878849427142, guid: 0b40633244c045b4e81b35735a33cc02, type: 3}
+      propertyPath: m_Name
+      value: LoadLevel
+      objectReference: {fileID: 0}
+    - target: {fileID: 1004766878849427143, guid: 0b40633244c045b4e81b35735a33cc02, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1004766878849427143, guid: 0b40633244c045b4e81b35735a33cc02, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1004766878849427143, guid: 0b40633244c045b4e81b35735a33cc02, type: 3}
+      propertyPath: m_RootOrder
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1004766878849427143, guid: 0b40633244c045b4e81b35735a33cc02, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1004766878849427143, guid: 0b40633244c045b4e81b35735a33cc02, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1004766878849427143, guid: 0b40633244c045b4e81b35735a33cc02, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1004766878849427143, guid: 0b40633244c045b4e81b35735a33cc02, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1004766878849427143, guid: 0b40633244c045b4e81b35735a33cc02, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 1004766878849427143, guid: 0b40633244c045b4e81b35735a33cc02, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 1004766878849427143, guid: 0b40633244c045b4e81b35735a33cc02, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1004766878849427143, guid: 0b40633244c045b4e81b35735a33cc02, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1004766878849427143, guid: 0b40633244c045b4e81b35735a33cc02, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1004766878849427143, guid: 0b40633244c045b4e81b35735a33cc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1004766878849427143, guid: 0b40633244c045b4e81b35735a33cc02, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1004766878849427143, guid: 0b40633244c045b4e81b35735a33cc02, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1004766878849427143, guid: 0b40633244c045b4e81b35735a33cc02, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1004766878849427143, guid: 0b40633244c045b4e81b35735a33cc02, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 522.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1004766878849427143, guid: 0b40633244c045b4e81b35735a33cc02, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 172
+      objectReference: {fileID: 0}
+    - target: {fileID: 1004766878849427143, guid: 0b40633244c045b4e81b35735a33cc02, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1004766878849427143, guid: 0b40633244c045b4e81b35735a33cc02, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1004766878849427143, guid: 0b40633244c045b4e81b35735a33cc02, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0b40633244c045b4e81b35735a33cc02, type: 3}
+--- !u!114 &1818653144 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1004766878849427140, guid: 0b40633244c045b4e81b35735a33cc02, type: 3}
+  m_PrefabInstance: {fileID: 1818653143}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b51e4846ec79a04ab276b65a4c60601, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1826443429
 GameObject:
   m_ObjectHideFlags: 0
@@ -3678,9 +3810,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1489560930}
         m_TargetAssemblyTypeName: FacultadActivarOpcionMenuPausa, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: Tp_Menu_Facultad_Tecnologia
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

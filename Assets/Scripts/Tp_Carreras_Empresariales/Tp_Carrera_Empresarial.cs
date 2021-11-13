@@ -8,6 +8,9 @@ public class Tp_Carrera_Empresarial : MonoBehaviour
     public string cambioEscenaCarreras = "empresarial";
     public int carrera;
 
+    public Canvas c;
+    public LoadLevel ll;
+
     public void Awake()
     {
         LoadData();
@@ -18,7 +21,9 @@ public class Tp_Carrera_Empresarial : MonoBehaviour
         if (other.tag == "Player")
         {
             PlayerPrefs.SetInt(cambioEscenaCarreras, carrera);
-            SceneManager.LoadScene("TestFacultadEmpresariales");
+            //SceneManager.LoadScene("TestFacultadEmpresariales");
+            c.enabled = false;
+            StartCoroutine(ll.LoadLevel1("TestFacultadEmpresariales"));
         }
     }
 

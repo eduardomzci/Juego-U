@@ -20,6 +20,12 @@ public class ActivadorDeCarreras_Empresarial : MonoBehaviour
     public void Awake()
     {
         LoadData();
+        StartCoroutine(tiempoEspera());
+    }
+
+    public IEnumerator tiempoEspera()
+    {
+        yield return new WaitForSeconds(1.0f);
         if (carrera == 0)
         {
             comercial.SetActive(true);
@@ -53,8 +59,6 @@ public class ActivadorDeCarreras_Empresarial : MonoBehaviour
             juridicas.SetActive(true);
         }
     }
-
-
     public void LoadData()
     {
         carrera = PlayerPrefs.GetInt(cambioEscenaCarreras, -1);

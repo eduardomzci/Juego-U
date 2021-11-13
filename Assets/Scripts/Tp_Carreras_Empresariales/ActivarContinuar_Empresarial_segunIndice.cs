@@ -20,6 +20,8 @@ public class ActivarContinuar_Empresarial_segunIndice : MonoBehaviour
     public string cambioEscenaCarreras = "empresarial";
     public int carrera;
 
+    public LoadLevel ll;
+
     public void Awake()
     {
         LoadData();
@@ -115,7 +117,9 @@ public class ActivarContinuar_Empresarial_segunIndice : MonoBehaviour
 
     public void ActivarOpcionSalir()
     {
-        SceneManager.LoadScene("MapaFacultadSocialesEmpresariales");
+        //SceneManager.LoadScene("MapaFacultadSocialesEmpresariales");
+        this.GetComponent<Canvas>().enabled = false;
+        StartCoroutine(ll.LoadLevel1("MapaFacultadSocialesEmpresariales"));
     }
 
     public void LoadData()

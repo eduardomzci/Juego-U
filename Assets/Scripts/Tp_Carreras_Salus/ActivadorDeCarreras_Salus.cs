@@ -17,6 +17,12 @@ public class ActivadorDeCarreras_Salus : MonoBehaviour
     public void Awake()
     {
         LoadData();
+        StartCoroutine(tiempoEspera());
+    }
+
+    public IEnumerator tiempoEspera()
+    {
+        yield return new WaitForSeconds(1.0f);
         if (carrera == 0)
         {
             medicina.SetActive(true);
@@ -38,8 +44,6 @@ public class ActivadorDeCarreras_Salus : MonoBehaviour
             fisioterapia.SetActive(true);
         }
     }
-
-
     public void LoadData()
     {
         carrera = PlayerPrefs.GetInt(cambioEscenaCarreras, -1);

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 using UnityEngine.SceneManagement;
 
 public class CambioEscenarioFTecnologia : MonoBehaviour
@@ -15,7 +16,8 @@ public class CambioEscenarioFTecnologia : MonoBehaviour
             HabilitarObject.SetActive(true);
             MovimientoPersonaje mp = other.gameObject.GetComponent<MovimientoPersonaje>();
             Vector3 st = other.gameObject.transform.position;
-            mp.lugarfijo = st;
+            NavMeshAgent ag = Personaje.gameObject.GetComponent<NavMeshAgent>();
+            ag.SetDestination(st);
             mp.anim.SetBool("correr", false);
             mp.anim.SetBool("quieto", true);
             mp.enabled = false;
